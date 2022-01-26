@@ -4,6 +4,7 @@ if mala<5 and mala>0:
     mala+=5
     laukums2=mala*mala
     procenti=laukums2*100/laukums1
-    print(f"Mainās par {round(procenti)}%")
+    rez=procenti-100
+    print(f"Mainās par {round(rez)}%")
 else:
     print("Tādi malu garumi neder")
